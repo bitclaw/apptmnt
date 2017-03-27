@@ -25,3 +25,10 @@ databases:
     - apptmnt
 
 ```
+
+## Useful pages
+
+- [web accessibility checker]https://achecker.ca/checker/index.php
+- [web accessibility checker]http://wave.webaim.org/
+- [web accessibility checker]https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd
+
