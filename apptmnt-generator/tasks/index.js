@@ -60,7 +60,7 @@ gulp.task(
   gulp.parallel('scripts', 'styles', buildSitemap)
 );
 const buildTask = gulp.task('build');
-buildTask.description = 'Build scripts and styles with minification tasks.';
+buildTask.description = 'Build scripts and styles with minification apptmnt-generator.';
 
 // Tests
 gulp.task(

@@ -14,8 +14,8 @@
 
  */
 
-// Modularized tasks
-import tasks from './tasks/tasks';
+// Modularized apptmnt-generator
+import tasks from './apptmnt-generator/tasks';
 
 // gulp-devtools
 module.exports = require('gulp');
