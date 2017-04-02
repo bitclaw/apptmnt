@@ -4,7 +4,7 @@
   "description": "Appointment creator",
   "main": "lib/apptmnt.js",
   "scripts": {
-    "start": "node node_modules/.bin/http-server src/ -a 127.0.0.1 -p 8080 -o",
+    "start": "node node_modules/.bin/http-server ./public/index.html -a 127.0.0.1 -p 8080 -o",
     "build": "webpack --env build",
     "dev": "webpack --progress --colors --watch --env dev",
     "test": "mocha --compilers js:babel-core/register --colors ./test/*.spec.js",
