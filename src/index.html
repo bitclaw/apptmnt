@@ -27,7 +27,13 @@
 <body>
 	<!-- @include inc/_browserhappy.html -->
 
-	<div id="main"></div>
+    <div class="flex-center position-ref full-height">
+        <div class="content">
+            <h1>Welcome to the Appointment Creator!</h1>
+            <h3>Please select a date for your appointment</h3>
+            <input name="apptmnt-date" type="date" placeholder="Choose a date..."><span><i class="fa fa-calendar"></i></span>
+        </div>
+    </div>
 
 	<!-- @if ENV='dev' -->
 	<script src="scripts/vendor.js"></script>
