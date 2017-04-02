@@ -7,7 +7,7 @@ chai.expect();
 
 const expect = chai.expect;
 
-let lib;
+let apptmnt;
 
 describe('Given an instance of Apptmnt',  () => {
 
@@ -17,7 +17,7 @@ describe('Given an instance of Apptmnt',  () => {
 
   describe('when I need the name', () => {
     it('should return the name', () => {
-      expect(lib.name).to.be.equal('Apptmnt');
+      expect(apptmnt.name).to.be.equal('Apptmnt');
     });
   });
 
