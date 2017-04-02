@@ -1,5 +1,7 @@
-// import View from 'views/view';
+import DatePicker from './datepicker/datepicker';
+import Apptmnt from './apptmnt/apptmnt';
 
-// const g = 9.81;
-
-console.log('Hello World');
+{
+    let datePicker = new DatePicker('test');
+    console.debug(datePicker);
+}
