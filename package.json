@@ -2,7 +2,7 @@
   "name": "apptmnt",
   "version": "0.1.0",
   "description": "Appointment creator",
-  "main": "lib/apptmnt.js",
+  "main": "src/index.js",
   "scripts": {
     "start": "node src/server/server.js",
     "build": "webpack --env build",
@@ -25,6 +25,7 @@
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.10.3",
     "mocha": "^3.2.0",
+    "mocha-webpack": "^0.7.0",
     "webpack": "^2.3.2",
     "yargs": "^7.0.2"
   },
