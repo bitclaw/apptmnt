@@ -20,8 +20,10 @@ Appointment Creator
  `yarn global add eslint eslint-config-airbnb gulpjs/gulp-cli;yarn global add eslint-plugin-jsx-a11y@^2.0.0 eslint-plugin-react eslint-plugin-import babel-eslint`
  
 - Run command `npm install` or `yarn install`
+- Run server `npm run start` or `yarn run start`
 - Run command (Only for development): `npm run dev`
-- Run command (Build for production): `npm run prod`
+- Run command (Build for production): `npm run build` or `yarn run build`
+- Run command (Tests): `npm run test` or `yarn run test`
 
 - In order to view gulp tasks run: `gulp --tasks`
 - Run tests with `gulp testScripts`

@@ -1,7 +1,7 @@
 /*global describe, it, before */
 
 import chai from 'chai';
-import Library from '../public/Apptmnt.js';
+import Apptmnt from '../src/apptmnt/apptmnt.js';
 
 chai.expect();
 
