@@ -5,3 +5,4 @@ dist/*
 !dist/static/.gitkeep
 .idea
 npm-debug.log
+yarn-debug.log
