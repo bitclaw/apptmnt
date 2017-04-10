@@ -1,5 +1,5 @@
-export default ({ date }) => `
+export default () => `
   <div class="components">
-    <apptmnt-datepicker filter="${filter}" date="${date}" ${closed ? 'closed' : ''}></apptmnt-datepicker>
+    <apptmnt-datepicker></apptmnt-datepicker>
   </div>
 `
